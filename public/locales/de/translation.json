@@ -1,0 +1,18 @@
+{
+  "ns1": {
+    "key": "de:ns1:keyvalue"
+  },
+  "ns2": {
+    "key": "de:ns2:keyvalue"
+  },
+  "ns3": {
+    "unique": "de:ns3:keyvalue",
+    "very": {
+      "deeply": {
+        "nested": {
+          "key": "Praesent egestas nunc sed augue tristique maximus."
+        }
+      }
+    }
+  }
+}

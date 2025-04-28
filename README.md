@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is an example project showing how [Next.js](https://nextjs.org) can be setup using i18n and react-i18next. Specifically, this project is configured using i18next-http-backend to load translation files from `public/locales` via `i18n.use(Backend)`.
 
 ## Getting Started
 
