@@ -7,7 +7,9 @@ export default function Home() {
       <main className={styles.main}>
         <h1>
           An example <code>Nextjs</code> project using <code>i18n</code> and{" "}
-          <code>react-i18next</code>.
+          <code>react-i18next</code>. Specifically, this project is configured
+          using <code>i18next-http-backend</code> to load translation files from
+          <code>public/locales</code> via <code>i18n.use(Backend)</code>.
         </h1>
 
         <div className={styles.ctas}>

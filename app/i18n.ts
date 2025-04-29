@@ -12,6 +12,8 @@ i18n
   .init({
     fallbackLng: "en",
     debug: false,
+    saveMissing: true,
+    saveMissingTo: "current",
 
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
@@ -20,8 +22,9 @@ i18n
     backend: {
       loadPath: isServer
         ? `${serverUrl}/locales/{{lng}}/{{ns}}.json`
-        : '/locales/{{lng}}/{{ns}}.json',
-    }
+        : "/locales/{{lng}}/{{ns}}.json",
+        addPath: "/i18n/missing/key/{{lng}}/{{ns}}"
+    },
   });
 
 export default i18n;
